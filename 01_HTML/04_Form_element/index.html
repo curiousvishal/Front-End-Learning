@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style>
+        body {
+            background-color: rgb(177, 215, 249);
+        }
+
+        * {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Search Anything</h1>
+    <hr>
+    <form action="https://www.amazon.in/s">
+        <label for="amazon">Amazon Search :</label>
+        <input type="text" id="amazon" name="k" placeholder="Search Amazon">
+        <button>Search</button>
+    </form>
+    <br>
+    <form action="https://www.flipkart.com/search">
+        <label for="flipkart">Flipkart Search :</label>
+        <input type="text" id="flipkart" name="q" placeholder="Search Flipkart">
+        <button>Search</button>
+    </form>
+    <br>
+    <form action="https://www.google.com/search">
+        <label for="google">Google Search</label>
+        <input type="text" id="goole" name="q" placeholder="Search Google">
+        <button>Search</button>
+    </form>
+<br>
+    <form action="">
+        <label for="">Age : </label>
+        <input type="number" min=18 max=100 placeholder="Enter Age" style="width: 100px;">
+        <br>
+        <label for="email">Email : </label>
+        <input type="email" name= "email" placeholder="Enter Email">
+        <br>
+        <label for="password">Password : </label>
+        <input type="password" name="password"  minlength="6" maxlength="12"  placeholder="Enter Password">
+        <br>
+<button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
