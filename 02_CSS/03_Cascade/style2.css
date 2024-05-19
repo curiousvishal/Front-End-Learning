@@ -1,0 +1,9 @@
+body{
+    color: blue;
+}
+/* some font text properties are inherited from the parent */
+
+
+#html{
+    background-color: rgb(255, 86, 224);
+}

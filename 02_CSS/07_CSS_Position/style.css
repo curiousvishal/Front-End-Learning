@@ -1,0 +1,15 @@
+div{
+    position: relative;
+    background-color: chartreuse;
+     inset: 5px;
+}
+/* 
+inset --- give all top, bottom,left, right
+*/
+.css-element{
+    background-color: aquamarine;
+    position: absolute;
+}
+/* position absolute --- eleminates the space occupied (height and width)
+It stays on that place but doesnt occupy space in page --like a shadow
+*/

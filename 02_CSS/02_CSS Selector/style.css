@@ -1,0 +1,16 @@
+[class]{
+    color: red;
+    /* attribute selector */
+}
+[vishal]{
+    color: blue;
+}
+
+[vishal = "curious"]{
+    color: blueviolet;
+}
+
+/* seudo classes selector */
+.react:hover{
+color: darkgreen;
+}

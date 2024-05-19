@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+
+p{
+    background-color: aqua;
+}
+.html{
+    background-color: chartreuse;
+    /* no width and height is applied on inline element */
+    /* padding is applied on inline element but takes over the content of the other element */
+    /* border also doesn't push the other elements and doesnot take space */
+    /* 
+    inline has 2 types --- replaced and non-replaced
+                            img tag         span   
+    */
+     
+}
+

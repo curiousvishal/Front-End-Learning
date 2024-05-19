@@ -1,0 +1,26 @@
+/* html{
+    font-size: 2em;
+} */
+    body{
+    font-size: 2em;
+}
+
+section{
+    margin: 10vw;
+    border: 1vw solid green;
+    font-size: 2rem;
+}
+/*em is dependent on font-size of parent or is dependent on
+its own width,height set on em
+ */
+
+ /*default rem and em ===16px 
+ rem always takes from html element
+  */
+
+
+.box{
+    background-color: aquamarine;
+    width: 5em;
+    font-size: 2rem;
+}

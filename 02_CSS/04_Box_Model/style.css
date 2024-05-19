@@ -1,0 +1,23 @@
+.one{
+    background-color: aqua;
+    width: 300;
+    height: 180px;
+    padding: 20px;
+    color: blue  ;
+    border: 5px solid;
+    box-sizing: border-box;
+}
+/* box size substracts from content box 
+If no content is left then   the box size increases */
+h1{
+    padding: -10px;
+    margin: 0;
+}
+
+.two{
+    background-color: burlywood;
+    overflow: visible;
+    border: 10px solid hotpink;
+    /* word-break: break-all; */
+    /* %height only works if parent has height in pixels */
+}

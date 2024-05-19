@@ -1,0 +1,13 @@
+* {
+  font-family: sans-serif;
+}
+p {
+  color: red;
+  font-weight: 400;
+}
+h1 {
+  color: blue;
+}
+body {
+  background-color: rgb(211, 211, 211);
+}

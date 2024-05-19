@@ -1,0 +1,19 @@
+/* #html#html#html#html#html#html#html{
+    background-color:darkgrey ;
+} */
+/* increases the specificity */
+/* (0,0,0) */
+#html{
+    background-color: aqua;
+}
+
+.html{
+    background-color: rgb(230, 30, 213) !important;
+}
+/* important is the max specificity and cannaot be overridden
+HTML element cannot override it */
+
+li{
+    background-color: chocolate !important;
+}
+/* important can only override cascading important */
