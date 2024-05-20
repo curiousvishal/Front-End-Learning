@@ -1,7 +1,17 @@
+body{
+    overflow-y: scroll;
+}
+header{
+    position: sticky;
+    background-color: blueviolet;
+    top: 0;
+    margin-top: 50px;
+}
 div{
-    position: relative;
+    /* position: relative; */
     background-color: chartreuse;
      inset: 5px;
+    
 }
 /* 
 inset --- give all top, bottom,left, right
@@ -12,4 +22,21 @@ inset --- give all top, bottom,left, right
 }
 /* position absolute --- eleminates the space occupied (height and width)
 It stays on that place but doesnt occupy space in page --like a shadow
+agar child ka parent pe static ke alawa koi h to related rahega warna
+haath se nikal jayega
+
+*/
+.js-element{
+    position: fixed;
+}
+/* position fixed is always attached to view port 
+Fixed ladka haath se nikal gaya hamesha ke liye*/
+.html-element{
+    position: sticky;
+    background-color: darkkhaki;
+    top: 5px;
+}
+/* sticky newer leaves aoutside parent
+sticky finds overflow-scroll on its parents if not found 
+then it attached to viewport
 */
