@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.banner{
+   
+    background-color: rgb(31, 79, 169);
+   padding: 4rem;
+}
+h1{
+    margin-bottom: 1rem;
+}
+.banner img{
+    width: 15px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-right: -1%;
+  
+    vertical-align: middle;
+}
+img + img{
+    
+}
