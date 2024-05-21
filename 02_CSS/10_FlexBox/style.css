@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+
+}
+
+.parent {
+    padding: 10px;
+    border: 4px solid indianred;
+    display: flex;
+}
+/* 
+Parents flex makes childs display blocks
+
+*/
+
+.parent span {
+    border: 4px solid cadetblue;
+    /* height: 300px;
+    width: 400px; */
+/* flex-shrink: 0; by default 1 doesnt let shrink */
+/* flex-grow: 1 ;takes the maximum space default is 0 */
+/* align-items: flex-start; default is stretch  */
+}
+
+
+.parent p {
+    border: 4px solid darkkhaki;
+    /* width: min-content; */
+    /* width: max-content; */
+}
+
+.parent a {
+    border: 4px solid yellowgreen;
+    flex-shrink: 0;
+} 
