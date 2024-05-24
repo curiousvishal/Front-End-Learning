@@ -1,0 +1,15 @@
+img {
+  width: 200px;
+  float: left;
+  margin: 0.75rem;
+  
+  /*   */
+}
+/*  text cannot go under float object */
+/* postion absolute --  */
+/* if all elements have float property then it comes side by side 
+clear : left-- no relation with float and doesnt come on left of something
+ignore the floating element and go on next linegggggggggggggg
+*/
+/* display: flow-root;----\
+covers the element of float applied on container */

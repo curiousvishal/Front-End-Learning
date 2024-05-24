@@ -1,0 +1,9 @@
+/* grid properties total 12 */
+
+.container{
+    background-color: lightblue;
+    min-height: 60vh;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
