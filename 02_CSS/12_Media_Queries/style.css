@@ -1,0 +1,23 @@
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border: 20px solid blue;
+  /* print-color-adjust: exact; */
+  /* -webkit-print-color-adjust: exact; */
+  /* To print the background color  */
+}
+/* @media (orientation: portrait) and (width > 400px) {
+    multiple arguments can be given
+  .square {
+    border: 20px solid rgb(255, 0, 0);
+    background-color: rgb(155, 155, 155);
+  }
+} 
+*/
+@media (max-width: 700px) {
+    .square {
+        border: 20px solid rgb(255, 0, 0);
+        background-color: rgb(155, 155, 155);
+      }
+}

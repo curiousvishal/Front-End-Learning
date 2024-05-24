@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* first Section */
+/* section{
+    max-width: 100vw;
+} */
+.hero-section {
+  min-height: 100vh;
+  background-image: url(./photos/orange-backdrop\ 1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-section .para-audio {
+  margin-left: 15rem;
+  margin-top: -8rem;
+}
+
+.jhalar {
+  width: 250px;
+}
+
+.hero-section p {
+  font-size: 46px;
+  font-family: "salsa";
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+audio::-webkit-media-controls-panel {
+  background-color: #fbd8a4;
+  color: rgb(35, 15, 0);
+  padding: 0;
+  
+  width: 90%;
+}
+
+.audio-container {
+  background-color: #fbd8a4;
+  max-width: max-content;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  margin: 12px 0;
+}
+
+.audio-container * {
+  margin-left: 8px;
+}
+
+.audio-container :first-child {
+  margin-left: 16px;
+}
+
+.hero-section .diya {
+  margin-left: -7rem;
+}
+
+/* Second Section */
+
+.laxmiganesh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f99501;
+  padding: 1rem 2rem;
+}
+
+.laxmiganesh img {
+  padding-bottom: 1rem;
+  max-width: 900px;
+  width: 100%;
+  /* display: block;
+    margin-inline: auto; */
+}
+
+.laxmiganesh h1 {
+  font-family: "Style Script";
+  font-weight: 200;
+  font-size: 70px;
+}
+
+/* Third Section */
+
+.girl {
+  background-color: #f99501;
+  padding: 1rem;
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.girl img {
+  max-width: 800px;
+  width: 90%;
+}
+
+.passage-girl {
+  margin-top: 2rem;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message {
+  background-color: white;
+  /* height: 35em; */
+  max-width: 500px;
+  width: 100%;
+  /* display: inline-block; */
+  /* margin-top: 4rem; */
+  border-radius: 2rem;
+  padding: 2rem 4rem 2rem 2rem;
+}
+
+.passage-girl img {
+  margin-left: -7rem;
+  max-width: 260px;
+  width: 100%;
+}
+
+.message p {
+  margin-top: 2rem;
+  font-family: "salsa";
+  font-size: 2rem;
+}
+
+/* last section */
+
+.last {
+  background-color: #f99501;
+  padding: 1rem;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.last img {
+  display: block;
+  width: 90%;
+  /* align-items: center; */
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+.laxmi {
+  background-color: #fff6e9;
+  max-width: 800px;
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.laxmi img {
+  /* max-width: 500px; */
+  width: 50%;
+  margin: 1rem;
+  /* padding: 1rem; */
+}
+
+.thankyou {
+  background-color: #f99501;
+  padding: 2rem;
+  text-align: left;
+}
+
+.thankyou h3 {
+  font-family: "salsa";
+  font-weight: 200;
+}
+
+.thankyou h1 {
+  font-size: 70px;
+  font-weight: 200;
+  font-family: "Style Script";
+
+}
+
+.last h5 {
+  text-align: right;
+  font-size: 1rem;
+  font-family: "salsa";
+  font-weight: 200;
+}
+
+
+@media (width< 840px) {
+  .hero-section {
+    background-color: #f99501;
+  }
+
+  .hero-section p {
+    /* font-size: 20px; */
+  }
+
+  .hero-section .para-audio {
+    margin: 1rem;
+  }
+
+  .audio-container span {
+    display: none;
+  }
+
+  .audio-container .music-remove {
+    display: none;
+  }
+
+  .hero-section .diya {
+    padding-right: 2rem;
+    /* margin-left: unset; */
+    display: flex;
+  }
+
+  .diya .first-deepak {
+    width: 350px;
+    margin-left: auto;
+  }
+
+  .second-deepak {
+    display: none;
+  }
+
+  /* second section */
+  .laxmiganesh h1 {
+    font-size: 2rem;
+  }
+
+  /* Third Section */
+  .laxmi {
+    padding: unset;
+  }
+
+  .laxmi img {
+    max-width: 300px;
+    width: 100%;
+    margin: 0;
+    padding: unset;
+  }
+
+  .thankyou h1 {
+    font-size: 50px;
+  }
+}
+
+@media (width< 500px) {
+  .hero-section img {
+    width: 200px;
+  }
+
+  audio {
+    width: 300px;
+  }
+
+  .para-audio p {
+    font-size: 2rem;
+  }
+
+  .audio-container svg {
+    display: none;
+
+  }
+
+  .message p {
+    /* margin-top: 1rem; */
+    font-size: 1rem;
+    padding-right: 1.5rem;
+  }
+
+  .passage-girl img {
+    max-width: 160px;
+    width: 100%;
+  }
+
+  .laxmi {
+    max-width: 300px;
+  }
+
+  .laxmi img {
+    max-width: 500px;
+    width: 100%;
+    margin: unset;
+    padding: unset;
+    /* margin: 1rem; */
+
+  }
+
+  .thankyou {
+    padding: 1rem;
+  }
+
+  .thankyou h1 {
+    font-size: 35px;
+    margin-bottom: unset;
+  }
+}

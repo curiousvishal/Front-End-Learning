@@ -1,0 +1,17 @@
+
+
+.square{
+    height: 200px;
+width: 200px;
+background-color: black;
+border: 20px solid blue;
+/* print-color-adjust: exact; */
+/* -webkit-print-color-adjust: exact; */
+/* To print the background color  */
+}
+@media screen{
+    .square{
+border: 20px solid rgb(255, 0, 0);
+background-color: rgb(252, 255, 80);
+    }
+}

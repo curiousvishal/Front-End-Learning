@@ -10,6 +10,9 @@ body {
     padding: 10px;
     border: 4px solid indianred;
     display: flex;
+    flex-wrap: wrap;  
+    /* if no place  then sends down  */
+    gap: 10px;
 }
 /* 
 Parents flex makes childs display blocks
@@ -22,9 +25,15 @@ Parents flex makes childs display blocks
     width: 400px; */
 /* flex-shrink: 0; by default 1 doesnt let shrink */
 /* flex-grow: 1 ;takes the maximum space default is 0 */
-/* align-items: flex-start; default is stretch  */
+/* align-items: flex-start; default is stretch 
+To make equal width make width-100%*/
+/* flex-basis: 400px; it override width  helps in control height and width */
+/* height in % doesnt work unless parents have height is pixels; */
 }
 
+.parent > *{
+    width: 200px;
+}
 
 .parent p {
     border: 4px solid darkkhaki;
