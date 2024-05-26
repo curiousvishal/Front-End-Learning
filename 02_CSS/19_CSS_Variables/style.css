@@ -1,0 +1,29 @@
+:root{
+    /* --primary-color:rgb(255, 0, 255); */
+    --secondary-color:rgb(0, 119, 140);
+    --tertiary-color:rgb(9, 135, 0);
+
+    --rounded:24px;
+/* root has more specificity than html tag */
+/* the root variables can be overwritten */
+    /* define atmost parent  */
+}
+
+body{
+
+}
+
+h1{
+    color: var(--primary-color, rgb(153, 174, 0));
+    /* the colors can be fall back if not accessible for any reason
+    or it inherit the property from its parent 
+    */
+}
+p{
+    color: var(--secondary-color);
+}
+button{
+    color: var(--tertiary-color);
+    border: solid var(--secondary-color);
+    border-radius: var(--rounded);
+}

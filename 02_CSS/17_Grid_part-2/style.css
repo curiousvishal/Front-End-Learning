@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    background-color: lightblue;
+    display: grid;
+    /* grid-template-columns: repeat(4,200px);
+    grid-auto-flow:dense;
+    grid-auto-rows: 200px; */
+     /* grid-template-columns: repeat(auto-fill, 100px); */
+     /* creates as many 100px columns possible */
+     /* grid-template-columns: repeat(5, minmax(80px, 140px)); */
+     grid-template-columns: repeat(auto-fill,minmax(100px, 140px));
+    /* automatically created cells have 100px column */
+    /* align-items: center;
+    justify-items: center;   to center the items in the cell */
+    /* align-items: center;
+    justify-items: center; */
+}
+.box{
+    color: white;
+    font-size: 4rem;
+    padding: 1rem;
+}
+.box-1{
+    background-color: brown;
+    /* grid-column: 3/5; */
+    /* start and end */
+}
+.box-2{
+    background-color: slategray;
+  }
+  .box-3{
+    background-color: rgb(6, 89, 172);
+  }
+  .box-4{
+    background-color: rgb(6, 206, 139);
+  }
+  .box-5{
+    background-color: rgb(121, 50, 207);
+  }
+  .box-6{
+    background-color: rgb(142, 219, 61);
+    /* align-self: stretch;
+    justify-self: stretch; */
+  }
+  .box-7{
+    background-color: rgb(253, 240, 45);
+  }
+  .box-8{
+    background-color: rgb(194, 119, 0);
+  }
+  .box-9{
+    background-color: rgb(255, 41, 41);
+  }
+  .box-10{
+    background-color: rgb(220, 62, 255);
+  }
+   
