@@ -1,4 +1,4 @@
-
+'use strict' // doesn't allow variables to declare without data type
 
 // if we use var before initializtion then it says undefined
 
