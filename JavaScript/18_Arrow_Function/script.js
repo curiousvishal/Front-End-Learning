@@ -16,3 +16,11 @@ return num*num
 
 // Implicit Return
 const squareI = (num)=> num*num
+
+const random = () =>  Math.random() ;
+console.log(random);
+
+//anonymous and arrow
+setTimeout(()=>{
+    console.log("hello guys");
+})
